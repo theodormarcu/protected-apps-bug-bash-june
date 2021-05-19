@@ -1,0 +1,25 @@
+version: 43.0.9
+pageUuid: aaee1cb8-b8f5-11eb-91d8-1b3e1136a28b
+appTemplate:
+  tests:
+    array: []
+  urlFragmentDefinitions: []
+  appStyles: ''
+  appThemeId: null
+  preloadedAppJavaScript: null
+  pageLoadValueOverrides: []
+  customDocumentTitle: ''
+  isGlobalWidget: false
+  isFetching: false
+  testEntities:
+    array: []
+  instrumentationEnabled: false
+  customDocumentTitleEnabled: false
+  preloadedAppJSLinks:
+    array: []
+  version: 2.64.40
+  responsiveLayoutDisabled: false
+  createdAt: null
+  customShortcuts:
+    array: []
+  loadingIndicatorsDisabled: false
