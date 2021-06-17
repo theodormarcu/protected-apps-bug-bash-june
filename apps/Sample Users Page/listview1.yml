@@ -10,6 +10,10 @@ template:
     - showBorder: true
     - showDropShadow: true
     - dynamicHeightsEnabled: false
+    - style:
+        ordered: []
+style:
+  ordered: []
 position2:
   position2:
     container: container2

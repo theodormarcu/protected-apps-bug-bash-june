@@ -6,6 +6,7 @@ template:
     - validationMaxlengthValue: ''
     - readonly: ''
     - disabledKeyCodes: ''
+    - showNumberCommas: false
     - validationMaxValue: ''
     - onBlur: ''
     - docsSlug: textinput
@@ -16,6 +17,8 @@ template:
     - validationMessage: ''
     - tooltipText: ''
     - value: __RETOOL_CONTROLLED_PROPERTY__
+    - style:
+        ordered: []
     - suffix: ''
     - validationMinlengthValue: ''
     - validationLengthValue: ''
@@ -38,6 +41,8 @@ template:
     - type: text
     - allowedRegex: ''
     - required: ''
+style:
+  ordered: []
 position2:
   position2:
     container: container1

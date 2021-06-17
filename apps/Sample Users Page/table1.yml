@@ -42,6 +42,8 @@ template:
           - email: ''
           - Description: green
           - company: ''
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -50,6 +52,7 @@ template:
     - showFilterButton: true
     - actionButtonUrl: ''
     - actionButtonNewWindow: false
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -85,8 +88,11 @@ template:
     - columnMappersRenderAsHTML:
         ordered: []
     - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
     - pageSize: 5
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - selectedColumn: null
     - actionButtonPosition: left
     - bulkUpdateAction: ''
@@ -147,6 +153,8 @@ template:
     - showPaginationOnTop: false
     - nextAfterCursor: ''
     - useCompactMode: false
+style:
+  ordered: []
 position2:
   position2:
     container: container2

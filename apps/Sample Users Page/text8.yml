@@ -12,10 +12,14 @@ template:
         *Note this page uses fake data from
         https://jsonplaceholder.typicode.com/  (The search and filters do not
         work, but you can browse albums and see pictures)*
+    - style:
+        ordered: []
     - renderAsHtml: true
     - backgroundColor: '#0000'
     - textColor: '#312929'
     - renderAsMarkdown: true
+style:
+  ordered: []
 position2:
   position2:
     height: 1

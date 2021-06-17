@@ -15,6 +15,7 @@ template:
     - runWhenModelUpdates: true
     - paginationPaginationField: ''
     - headers: ''
+    - showFailureToaster: true
     - paginationEnabled: false
     - query: >-
         https://jsonplaceholder.typicode.com/albums?userId={{
@@ -47,11 +48,13 @@ template:
     - queryTriggerDelay: '0'
     - watchedParams: []
     - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
     - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
     - hideRequireConfirmation: false
     - runWhenPageLoads: false
     - transformer: >-
@@ -64,8 +67,11 @@ template:
     - queryTimeout: '10000'
     - requireConfirmation: false
     - type: GET
+    - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - bodyType: json
     - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
     - notificationDuration: ''
 createdAt: 2020-11-10T02:28:24.499Z
