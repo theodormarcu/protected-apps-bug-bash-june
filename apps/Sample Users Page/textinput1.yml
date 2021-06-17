@@ -47,6 +47,7 @@ position2:
   position2:
     container: container1
     row: 1
+    col: 1
     height: 2
     width: 4
 tabIndex: 5

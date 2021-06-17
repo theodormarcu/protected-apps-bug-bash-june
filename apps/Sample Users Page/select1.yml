@@ -33,9 +33,8 @@ style:
   ordered: []
 position2:
   position2:
-    container: container1
-    row: 1
-    col: 4
+    container: container2
+    col: 3
     height: 2
     width: 2
 tabIndex: 7

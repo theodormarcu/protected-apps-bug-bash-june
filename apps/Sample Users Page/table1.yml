@@ -158,7 +158,7 @@ style:
 position2:
   position2:
     container: container2
-    row: 1
+    row: 2
     height: 8
     width: 12
 tabIndex: 13
