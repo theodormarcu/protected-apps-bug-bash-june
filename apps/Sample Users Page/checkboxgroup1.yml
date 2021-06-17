@@ -10,7 +10,7 @@ template:
     - value: ''
     - style:
         ordered: []
-    - label: Filter by department
+    - label: Filter by job
     - labelMaxWidth: ''
     - labelPlacedOnLeft: false
     - disabled: ''
