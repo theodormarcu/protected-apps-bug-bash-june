@@ -14,6 +14,8 @@ template:
     - displayValue: ''
     - tooltipText: ''
     - value: any
+    - style:
+        ordered: []
     - maxResults: 50
     - placeholder: ''
     - label: Filter by status
@@ -22,15 +24,17 @@ template:
     - labelPlacedOnLeft: false
     - validationState: ''
     - onSelect: ''
+    - allowCustomValues: false
     - disabled: ''
     - hideClearButton: false
     - required: false
     - labels: ''
+style:
+  ordered: []
 position2:
   position2:
-    container: container1
-    row: 1
-    col: 4
+    container: container2
+    col: 3
     height: 2
     width: 2
 tabIndex: 7

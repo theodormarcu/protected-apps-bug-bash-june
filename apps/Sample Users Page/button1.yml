@@ -12,13 +12,25 @@ template:
     - url: ''
     - newWindow: true
     - value: Search
+    - style:
+        ordered: []
     - exportQuery: ''
     - action: users
     - internalUrlQuery: ''
     - internalUrlPath: ''
+    - events:
+        - ordered:
+            - event: click
+            - method: trigger
+            - type: datasource
+            - pluginId: users
+            - waitType: debounce
+            - waitMs: '0'
     - exportFileName: export
     - loading: ''
     - disabled: ''
+style:
+  ordered: []
 position2:
   position2:
     container: container1

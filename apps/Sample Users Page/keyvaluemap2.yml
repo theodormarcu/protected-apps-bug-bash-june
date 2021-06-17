@@ -21,6 +21,8 @@ template:
           - name: true
           - catchPhrase: true
           - bs: true
+    - style:
+        ordered: []
     - prevRowFormats:
         ordered: []
     - rowMappers:
@@ -33,6 +35,8 @@ template:
         - catchPhrase
         - bs
     - keyTitle: Company
+style:
+  ordered: []
 position2:
   position2:
     container: container3

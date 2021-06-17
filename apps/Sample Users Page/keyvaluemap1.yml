@@ -23,6 +23,8 @@ template:
           - city: true
           - zipcode: true
           - geo: false
+    - style:
+        ordered: []
     - prevRowFormats:
         ordered: []
     - rowMappers:
@@ -37,6 +39,8 @@ template:
         - zipcode
         - geo
     - keyTitle: Address
+style:
+  ordered: []
 position2:
   position2:
     container: container3

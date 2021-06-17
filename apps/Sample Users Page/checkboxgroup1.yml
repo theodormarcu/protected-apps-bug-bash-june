@@ -8,11 +8,15 @@ template:
     - onChange: ''
     - tooltipText: ''
     - value: ''
-    - label: Filter by department
+    - style:
+        ordered: []
+    - label: Filter by job
     - labelMaxWidth: ''
     - labelPlacedOnLeft: false
     - disabled: ''
     - labels: ''
+style:
+  ordered: []
 position2:
   position2:
     container: container1

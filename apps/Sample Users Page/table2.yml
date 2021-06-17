@@ -39,6 +39,8 @@ template:
           - Title: blue
           - Description: green
           - Sales: orange
+    - columnFrozenAlignments:
+        ordered: []
     - allowMultiRowSelect: false
     - columnFormats:
         ordered: []
@@ -47,6 +49,7 @@ template:
     - showFilterButton: true
     - actionButtonUrl: ''
     - actionButtonNewWindow: false
+    - showAddRowButton: false
     - nextBeforeCursor: ''
     - columnVisibility:
         ordered:
@@ -76,8 +79,11 @@ template:
     - columnMappersRenderAsHTML:
         ordered: []
     - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
     - pageSize: 10
     - useDynamicColumnSettings: false
+    - style:
+        ordered: []
     - selectedColumn: null
     - actionButtonPosition: left
     - bulkUpdateAction: ''
@@ -132,10 +138,12 @@ template:
     - showPaginationOnTop: false
     - nextAfterCursor: ''
     - useCompactMode: false
+style:
+  ordered: []
 position2:
   position2:
     container: container2
-    row: 25
+    row: 27.2
     height: 13
     width: 7
 tabIndex: 27
