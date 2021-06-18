@@ -1,0 +1,143 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnWidths: []
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered: []
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - showAddRowButton: false
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - id: true
+          - name: true
+          - email: true
+          - sales: true
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: |-
+        [{
+          "id": 1,
+          "name": "Hanson Deck",
+          "email": "hanson@deck.com",
+          "sales": 37
+        }, {
+          "id": 2,
+          "name": "Max Conversation",
+          "email": "Max@conversation.com",
+          "sales": 424
+        }, {
+          "id": 3,
+          "name": "Jason Response",
+          "email": "jason@response.com",
+          "sales": 55
+        }, {
+          "id": 4,
+          "name": "Sue Shei",
+          "email": "sueshei@example.com",
+          "sales": 550
+        }, {
+          "id": 5,
+          "name": "Eric Widget",
+          "email": "eric@widget.org",
+          "sales": 243
+        }]
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: 5
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - columnEditable:
+        ordered: []
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - id
+        - name
+        - email
+        - sales
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.6
+    col: 7
+    height: 8
+    width: 5
+createdAt: 2021-06-18T19:49:41.994Z
