@@ -1,5 +1,5 @@
 version: 43.0.9
-pageUuid: 05f35d12-d2a0-11eb-8fe1-077c30bbfd6f
+pageUuid: 73f286a0-d2b7-11eb-8348-efde8b17e300
 appTemplate:
   tests:
     array: []
@@ -17,7 +17,7 @@ appTemplate:
   customDocumentTitleEnabled: false
   preloadedAppJSLinks:
     array: []
-  version: 2.71.3
+  version: 2.71.8
   responsiveLayoutDisabled: false
   createdAt: null
   customShortcuts:
