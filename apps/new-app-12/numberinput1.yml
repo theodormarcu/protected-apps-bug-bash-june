@@ -1,0 +1,38 @@
+id: numberinput1
+type: widget
+subtype: NumberInputWidget
+template:
+  ordered:
+    - iconAfter: ''
+    - max: null
+    - hidden: false
+    - showSeparators: true
+    - validationMessage: ''
+    - tooltipText: ''
+    - currency: USD
+    - labelAlign: left
+    - value: 0
+    - suffix: ''
+    - min: 0
+    - prefix: ''
+    - placeholder: Enter value
+    - showStepper: true
+    - label: Label
+    - validate: false
+    - invalid: false
+    - format: decimal
+    - iconBefore: ''
+    - textAlign: left
+    - disabled: false
+    - labelPosition: left
+    - errorMessage: ''
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 6
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2021-06-22T17:23:41.980Z
